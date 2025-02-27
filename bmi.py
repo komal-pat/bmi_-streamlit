@@ -1,7 +1,7 @@
 import streamlit as st
 
 h = st.number_input('enter height in meters')
-w = st.number_input('enter weight in meter')
+w = st.number_input('enter weight in kgs')
 
 try:
     bmi = w/h**2
